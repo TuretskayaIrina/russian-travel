@@ -1,2 +1,112 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
+/*Границы для проверки разметки*/
+div,
+img,
+h1,
+p,
+a,
+h3,
+h4,
+h5,
+section,
+nav {
+  border: 1px solid red;
+}
+/*Общие стили для страницы, тут еще шрифты проверить */
+.page {
+  background: #2A2C2F;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Стили для шапки*/
+.header {
+  width: 1184px;
+  height: 52px;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  background-image: url(../images/__logo.svg);
+  width: 176.58px;
+  height: 52px;
+}
+.header__langs {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.header__lang {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  margin-right: 18px;
+}
+.header__lang:last-of-type {
+  margin-right: 0;
+}
+.header__lang:hover {
+  opacity: .5;
+  transition: .3s;
+  text-decoration: underline;
+}
+
+/*Общие стили для контента*/
+.content {
+
+}
+
+/*Секция lead*/
+.lead {
+  color: #FFFFFF;
+}
+.lead__title {}
+.lead__subtitle{}
+.lead__image{}
+.liad__caption{}
+
+/*Секция intro*/
+.intro {
+
+}
+
+/*Секция photo-grid*/
+.photo-grid {
+
+}
+
+/*Секция places*/
+.places {
+
+}
+
+/*Секция video*/
+.video {
+
+}
+
+/*Секция comments*/
+.comments {
+
+}
+
+/*Секция cover*/
+.cover {
+
+}
+
+/*Футер*/
+.footer {
+
+}
