@@ -20,14 +20,14 @@ nav {
   max-width: 1440px;
   min-width: 320px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 
 }
 
 /*Стили для шапки*/
 .header {
-  width: 1184px;
-  height: 52px;
+  max-width: 1184px;
+  max-height: 52px;
   margin: 0 auto;
   padding-top: 30px;
   color: #FFFFFF;
@@ -53,6 +53,7 @@ nav {
   line-height: 23px;
   margin-right: 18px;
 }
+/*почему не работет???*/
 .header__lang:last-of-type {
   margin-right: 0;
 }
@@ -70,16 +71,90 @@ nav {
 /*Секция lead*/
 .lead {
   color: #FFFFFF;
+  max-width: 985px;
+  max-height: 950px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 48px;
 }
-.lead__title {}
-.lead__subtitle{}
-.lead__image{}
-.liad__caption{}
+.lead__title {
+  max-width: 782px;
+  max-height: 184px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 93px;
+  text-align: center;
+}
+.lead__subtitle{
+  max-width: 583px;
+  max-height: 65px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 48px 0 78px;
+}
+.lead__image{
+  width: 100%;
+  margin: 0 0 10.87px;
+}
+.liad__caption{
+  max-width: 636px;
+  max-height: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin: 0;
+}
 
 /*Секция intro*/
+/*тут прилипла  фраза под картинкой, надо исправить*/
 .intro {
-
+  color: #FFFFFF;
+  max-width: 985px;
+  max-height: 950px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
+.intro__title {
+  max-width: 683px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 59px;
+}
+.intro__content-row {
+  max-width: 683px;
+}
+.intro__content-row_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+.intro__places {
+  list-style-type: none;
+  margin: 24px 0 0;
+  padding: 0;
+}
+.intro__place {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
 
 /*Секция photo-grid*/
 .photo-grid {
