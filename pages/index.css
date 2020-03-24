@@ -158,6 +158,10 @@ nav {
 
 /*Секция photo-grid*/
 .photo-grid {
+  max-width: 1184px;
+  max-height: 596px;
+}
+.photo-grid__item {
 
 }
 
