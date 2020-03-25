@@ -150,19 +150,29 @@ nav {
 }
 .intro__place {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 13px;
   line-height: 20px;
 }
-
+.intro__place_span-accent {
+  font-weight: bold;
+}
 
 /*Секция photo-grid*/
 .photo-grid {
   max-width: 1184px;
   max-height: 596px;
+  margin: 102px auto 92px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
 }
 .photo-grid__item {
-
+  width: 100%;
+  height: 188px;
+  object-fit: cover;
+  border: none;
 }
 
 /*Секция places*/
