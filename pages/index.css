@@ -177,7 +177,66 @@ nav {
 
 /*Секция places*/
 .places {
-
+  max-width: 984px;
+  margin: 92px auto 102px;
+}
+.place{
+  max-width: 984px;
+  margin-bottom: 72px;
+  display: grid;
+  grid-template-areas:
+      "title url"
+      "image paragraph-conteiner";
+  column-gap: 2.5rem;
+  row-gap: 3.75rem;
+}
+.place:last-of-type {
+  margin-bottom: 0;
+}
+.place__title {
+  color: #FFFFFF;
+  max-width: 457px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 0px;
+  grid-area: title;
+}
+.place__url {
+  max-width: 484px;
+  max-height: 46px;
+  align-self: end;
+  grid-area: url;
+}
+.place__url_name {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+}
+.place__url_link {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.place__image {
+  width: 460px;
+  height: 460px;
+  grid-area: image
+}
+.place__paragraph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: paragraph-conteiner;
+}
+.place__paragraph {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 36px;
 }
 
 /*Секция video*/
