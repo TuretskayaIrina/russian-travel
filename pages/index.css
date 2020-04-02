@@ -313,5 +313,35 @@ nav {
 
 /*Футер*/
 .footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__navigation {
 
+}
+.footer__navigation-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.footer__navigation-link {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 18px 0 0;
+}
+.footer__author {
+  max-width: 282px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 0;
 }
