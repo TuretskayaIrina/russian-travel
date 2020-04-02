@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 
-/*Границы для проверки разметки*/
+/*Границы для проверки разметки
 div,
 img,
 h1,
@@ -16,7 +16,8 @@ h5,
 section,
 nav {
   border: 1px solid red;
-}
+}*/
+
 /*Общие стили для страницы, тут еще шрифты проверить */
 .page {
   background: #2A2C2F;
@@ -30,8 +31,7 @@ nav {
 /*Стили для шапки*/
 .header {
   max-width: 1184px;
-  max-height: 52px;
-  margin: 0 auto;
+  margin: auto;
   padding-top: 30px;
   color: #FFFFFF;
   display: flex;
@@ -42,11 +42,14 @@ nav {
   width: 176.58px;
   height: 52px;
 }
-.header__langs {
-  list-style-type: none;
-  display: inline-flex;
+.header__logo:hover {
+  transition: .2s;
+  opacity: .5;
 }
-
+.header__langs {
+  display: flex;
+  align-items: center;
+}
 .header__lang {
   text-decoration: none;
   color: white;
@@ -56,14 +59,15 @@ nav {
   line-height: 23px;
   margin-right: 18px;
 }
-/*почему не работет???*/
-.header__lang:last-of-type {
+.header__lang_active{
+  text-decoration: underline;
+}
+.header__lang:last-of-type{
   margin-right: 0;
 }
 .header__lang:hover {
-  opacity: .5;
   transition: .2s;
-  text-decoration: underline;
+  opacity: .7;
 }
 
 /*Общие стили для контента*/
@@ -74,19 +78,14 @@ nav {
 /*Секция lead*/
 .lead {
   color: #FFFFFF;
-  max-width: 985px;
-  max-height: 950px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0 auto;
-  padding-top: 48px;
+  margin: 48px 0 auto;
 }
 .lead__title {
   max-width: 782px;
-  max-height: 184px;
   margin: 0 auto;
-  font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 93px;
@@ -94,8 +93,6 @@ nav {
 }
 .lead__subtitle{
   max-width: 583px;
-  max-height: 65px;
-  font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
@@ -103,13 +100,11 @@ nav {
   margin: 48px 0 78px;
 }
 .lead__image{
-  width: 100%;
+  max-width: 984px;
+  max-height: 554.13px;
   margin: 0 0 10.87px;
 }
 .liad__caption{
-  max-width: 636px;
-  max-height: 10px;
-  font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 12px;
@@ -120,30 +115,28 @@ nav {
 }
 
 /*Секция intro*/
-/*тут прилипла  фраза под картинкой, надо исправить*/
+
 .intro {
   color: #FFFFFF;
   max-width: 985px;
-  max-height: 950px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 80px auto 0;
 }
 .intro__title {
   max-width: 683px;
-  font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 59px;
+  margin: 0 0 48px;
 }
 .intro__content-row {
   max-width: 683px;
-}
-.intro__content-row_text {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.intro__content-row_text {
   margin: 0;
 }
 .intro__places {
@@ -152,7 +145,6 @@ nav {
   padding: 0;
 }
 .intro__place {
-  font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 20px;
@@ -164,7 +156,6 @@ nav {
 /*Секция photo-grid*/
 .photo-grid {
   max-width: 1184px;
-  max-height: 596px;
   margin: 102px auto 92px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -199,7 +190,6 @@ nav {
 .place__title {
   color: #FFFFFF;
   max-width: 457px;
-  font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 1;
@@ -208,7 +198,6 @@ nav {
 }
 .place__url {
   max-width: 484px;
-  max-height: 46px;
   align-self: end;
   grid-area: url;
 }
@@ -337,7 +326,6 @@ nav {
 /*Секция comments*/
 .comments {
   max-width: 1184px;
-  max-height: 618px;
   margin: 102px auto;
   color: #FFFFFF;
   display: flex;
@@ -349,12 +337,10 @@ nav {
   line-height: 78px;
   text-align: center;
   max-width: 800px;
-  max-height: 157px;
   margin: 0 auto 48px;
 }
 .content-subtitle {
   max-width: 640px;
-  max-height: 58px;
   margin: 0 auto;
   font-weight: normal;
   font-size: 24px;
@@ -363,7 +349,6 @@ nav {
 }
 .table {
   max-width: 1184px;
-  max-height: 283px;
   margin: 72px auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -372,7 +357,6 @@ nav {
 }
 .table__cell {
   max-width: 382px;
-  height: 283px;
 }
 .table__img {
   width: 97px;
