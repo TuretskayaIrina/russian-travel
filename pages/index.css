@@ -22,7 +22,7 @@ nav {
   background: #2A2C2F;
   max-width: 1440px;
   min-width: 320px;
-  margin: 0 auto;
+  margin: auto;
   font-family: "Inter", Arial, sans-serif;
 
 }
@@ -394,7 +394,6 @@ nav {
 
 /*Секция cover*/
 
-/*
 .cover {
 
 }
@@ -405,7 +404,7 @@ nav {
   margin: 102px auto 160px;
   text-decoration: none;
 }
-.cover title {
+.cover__title {
   font-weight: 900;
   font-size: 72px;
   line-height: 78px;
@@ -427,14 +426,15 @@ nav {
 }
 .cover__img {
   position: absolute;
-  left: 0;
-  right: 0;
   max-width: 1184px;
   max-height: 594px;
   opacity: .7;
 }
+.cover__img:hover {
+  opacity: .5;
+  transition: .2;
 }
-*/
+
 /*Футер*/
 .footer {
   max-width: 1184px;
