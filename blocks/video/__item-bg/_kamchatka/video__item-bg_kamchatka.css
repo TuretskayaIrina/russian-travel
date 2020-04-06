@@ -1,0 +1,25 @@
+.video__item-bg_kamchatka {
+  background-image: url('../../../../images/Камчатка.jpg');
+  width: 100%;
+  margin: 0;
+}
+
+.video__item-bg_kamchatka:hover {
+  background-image: -webkit-gradient(
+          linear,
+          left top, left bottom,
+          from(rgba(0, 0, 0, 0.7)),
+          to(rgba(0, 0, 0, 0.7))
+        ),
+        url('../../../../images/Камчатка.jpg');
+  background-image: -o-linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url('../../../../images/Камчатка.jpg');
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url('../../../../images/Камчатка.jpg')
+}

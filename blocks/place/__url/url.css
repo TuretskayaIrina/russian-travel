@@ -1,0 +1,8 @@
+@import url('./_name/place__url_name.css');
+@import url('./_link/place__url_link.css');
+
+.place__url {
+  max-width: 484px;
+  align-self: end;
+  grid-area: url;
+}

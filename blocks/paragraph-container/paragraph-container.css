@@ -1,0 +1,8 @@
+@import url('./__element/element.css');
+
+.place__paragraph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: paragraph-conteiner;
+}

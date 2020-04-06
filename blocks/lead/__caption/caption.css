@@ -1,0 +1,9 @@
+.liad__caption{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin: 0;
+}

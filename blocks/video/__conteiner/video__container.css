@@ -1,0 +1,9 @@
+.video__container {
+  margin-top: 72px;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 18px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 18px;
+}

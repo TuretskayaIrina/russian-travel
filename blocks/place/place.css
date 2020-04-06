@@ -1,0 +1,19 @@
+@import url('./__title/title.css');
+@import url('./__url/url.css');
+@import url('./__image/image.css');
+@import url('../paragraph-container/paragraph-container.css');
+
+
+.place{
+  max-width: 984px;
+  margin-bottom: 72px;
+  display: grid;
+  grid-template-areas:
+      "title url"
+      "image paragraph-conteiner";
+  column-gap: 2.5rem;
+  row-gap: 3.75rem;
+}
+.place:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,13 @@
+@import url('../lead/__title/title.css');
+@import url('../lead/__subtitle/subtitle.css');
+@import url('../lead/__image/image.css');
+@import url('../lead/__caption/caption.css');
+
+.lead {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 48px auto 0;
+  max-width: 985px;
+}

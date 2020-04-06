@@ -1,0 +1,9 @@
+.header__logo {
+  background-image: url(../../../images/__logo.svg);
+  width: 176.58px;
+  height: 52px;
+}
+.header__logo:hover {
+  transition: .2s;
+  opacity: .5;
+}
