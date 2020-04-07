@@ -1,4 +1,4 @@
-@import url('./__element/element.css');
+@import url('./__element/paragraph-container__element.css');
 
 .place__paragraph-container {
   display: flex;

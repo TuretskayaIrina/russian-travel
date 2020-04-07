@@ -1,13 +1,13 @@
 @import url('../content-title/content-title.css');
 @import url('../content-subtitle/content-subtitle.css');
-@import url('./__link/link.css');
+@import url('./__link/video__link.css');
 @import url('./__conteiner/video__container.css');
-@import url('./__item/item.css');
-@import url('./__item-bg/item-bg.css');
-@import url('./__icon-play/icon-play.css');
-@import url('./__duration/duration.css');
-@import url('./__title/title.css');
-@import url('./__subtitle/subtitle.css');
+@import url('./__item/video__item.css');
+@import url('./__item-bg/video__item-bg.css');
+@import url('./__icon-play/video__icon-play.css');
+@import url('./__duration/video__duration.css');
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
 
 .video {
   max-width: 1184px;

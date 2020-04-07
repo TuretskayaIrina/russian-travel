@@ -1,0 +1,12 @@
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('../table/table.css');
+
+.comments {
+  max-width: 1184px;
+  margin: 102px auto;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+

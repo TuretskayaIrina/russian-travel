@@ -1,0 +1,12 @@
+@import url('./__cell/table__cell.css');
+@import url('./__img/table__img.css');
+@import url('./__quote/table__quote.css');
+@import url('./__author/table__author.css');
+.table {
+  max-width: 1184px;
+  margin: 72px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
+  grid-gap: 19px;
+}

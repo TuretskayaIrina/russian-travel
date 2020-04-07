@@ -1,0 +1,13 @@
+@import url('./__navigation/footer__navigation.css');
+@import url('./__navigation-links/footer__navigation-links.css');
+@import url('./__navigation-link/footer__navigation-link.css');
+@import url('./__author/footer__author.css');
+
+
+.footer {
+  max-width: 1184px;
+  margin: 160px auto 0;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}

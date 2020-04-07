@@ -1,6 +1,6 @@
-@import url('./__title/title.css');
-@import url('./__url/url.css');
-@import url('./__image/image.css');
+@import url('./__title/place__title.css');
+@import url('./__url/place__url.css');
+@import url('./__image/place__image.css');
 @import url('../paragraph-container/paragraph-container.css');
 
 
