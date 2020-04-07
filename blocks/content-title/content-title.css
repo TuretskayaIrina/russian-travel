@@ -6,4 +6,5 @@
   max-width: 800px;
   margin: 0 auto 48px;
   color: #fff;
+  white-space: pre-wrap;
 }

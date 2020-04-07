@@ -4,7 +4,7 @@
 
 .comments {
   max-width: 1184px;
-  margin: 102px auto;
+  margin: 0 auto;
   color: #FFFFFF;
   display: flex;
   flex-direction: column;

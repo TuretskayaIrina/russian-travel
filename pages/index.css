@@ -11,7 +11,7 @@
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
 
-/*Границы для проверки разметки
+Границы для проверки разметки
 div,
 img,
 h1,
@@ -26,5 +26,5 @@ h5,
 section,
 nav {
   border: 1px solid red;
-}*/
+}
 
