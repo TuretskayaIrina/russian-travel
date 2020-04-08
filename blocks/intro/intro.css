@@ -9,3 +9,22 @@
   flex-direction: column;
   margin: 80px auto 0;
 }
+
+@media screen and (max-width : 1200px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .intro {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .intro {
+    margin-top: 64px;
+    width: calc(100% - 32px);
+  }
+}
