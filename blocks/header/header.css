@@ -3,10 +3,33 @@
 @import url('./__lang/header__lang.css');
 
 .header {
-  max-width: 1184px;
+  max-width: 82.2%;
   margin: auto;
-  padding-top: 30px;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width : 1200px) {
+  .header {
+    width: 90.6%;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .header {
+    width: 93.8%;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .header {
+    width: 91.5%;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .header {
+    width: 90%;
+  }
 }

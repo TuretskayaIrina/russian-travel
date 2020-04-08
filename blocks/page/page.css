@@ -1,8 +1,35 @@
 .page {
-  background: #2A2C2F;
-  max-width: 1440px;
-  min-width: 320px;
-  margin: auto;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #2a2c2f;
+  max-width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  padding: 30px 0 48px 0;
+}
 
+@media screen and (max-width : 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .page {
+    padding-bottom: 24px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .page {
+    padding-top: 16px;
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .page {
+    max-width: 320px;
+  }
 }

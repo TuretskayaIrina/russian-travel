@@ -4,5 +4,20 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 48px 0 78px;
+  margin: 48px 0 auto;
+}
+
+@media screen and (max-width : 1200px) {
+  .lead__subtitle {
+    max-width: 635px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .lead__subtitle {
+    margin-top: 8px;
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
