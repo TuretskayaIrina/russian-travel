@@ -7,3 +7,34 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 18px;
 }
+
+@media screen and (max-width : 1200px) {
+  .video__container {
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .video__container {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .video__container {
+    margin-top: 24px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 8px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+  }
+  .video__container > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .video__container > *:nth-child(2) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+}

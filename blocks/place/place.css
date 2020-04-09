@@ -17,3 +17,26 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width : 1200px) {
+  .place {
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .place {
+    column-gap: 1.75rem;
+  }
+}
+@media screen and (max-width : 375px) {
+  .place {
+    margin-bottom: 48px;
+    grid-template-areas:
+      "title"
+      "image"
+      "paragraph-conteiner";
+      gap: 0;
+  }
+}

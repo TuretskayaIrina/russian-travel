@@ -4,3 +4,23 @@
   max-width: 984px;
   margin: 92px auto 102px;
 }
+
+@media screen and (max-width : 1200px) {
+  .places {
+    margin-top: 102px;
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .places {
+    margin-top: 64px;
+    width: 100%;
+  }
+}

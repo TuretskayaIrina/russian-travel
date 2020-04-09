@@ -23,3 +23,35 @@
         ),
         url('../../../../images/Камчатка.jpg')
 }
+
+
+@media screen and (max-width : 900px) {
+  .video__item-bg_kamchatka {
+    height: 206px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .video__item-bg_kamchatka {
+    background-image: -webkit-gradient(
+          linear,
+          left top, left bottom,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0.5))
+        ),
+        url('../../../../images/Камчатка.jpg');
+  background-image: -o-linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url('../../../../images/Камчатка.jpg');
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url('../../../../images/Камчатка.jpg');
+
+        height: 100%;
+  }
+
+}
