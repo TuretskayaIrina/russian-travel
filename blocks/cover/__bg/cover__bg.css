@@ -23,3 +23,26 @@
         ),
         url('../../../images/Image.jpg')
 }
+@media screen and (max-width : 1200px) {
+  .cover__bg {
+    height: 562px;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .cover__bg {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .cover__bg {
+    height: 272px;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .cover__bg {
+    height: 216px;
+  }
+}

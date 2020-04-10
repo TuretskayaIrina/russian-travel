@@ -17,3 +17,22 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width : 1200px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width : 376px) {
+  .cover__bg {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .cover__bg {
+    margin-top: 64px;
+  }
+}
