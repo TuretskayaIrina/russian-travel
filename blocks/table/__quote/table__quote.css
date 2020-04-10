@@ -3,4 +3,15 @@
   font-size: 14px;
   line-height: 24px;
   margin: 42px 0 24px;
+  order: 2;
+}
+
+
+@media screen and (max-width : 900px) {
+  .table__quote {
+    font-size: 16px;
+    line-height: 23px;
+    order: 3;
+    margin: 24px 0 0;
+  }
 }

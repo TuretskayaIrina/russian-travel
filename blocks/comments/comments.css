@@ -4,9 +4,26 @@
 
 .comments {
   max-width: 1184px;
-  margin: 0 auto;
+  margin: 102px auto 0;
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
 
+@media screen and (max-width : 1281px) {
+  .comments {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .comments {
+    width: calc(100% - 128px);
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .comments {
+    width: calc(100% - 32px);
+  }
+}

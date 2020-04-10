@@ -3,10 +3,32 @@
 @import url('./__quote/table__quote.css');
 @import url('./__author/table__author.css');
 .table {
-  max-width: 1184px;
+  max-width: 100%;
   margin: 72px auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1;
   grid-gap: 19px;
+}
+
+@media screen and (max-width : 900px) {
+  .table {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 48px;
+    width: calc(100% - 258px);
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .table {
+    margin-top: 48px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .table {
+    margin-top: 40px;
+  }
 }
