@@ -10,3 +10,30 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width : 1200px) {
+  .footer {
+    max-width: 929px;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .footer {
+    max-width: 722px;
+  }
+}
+
+@media screen and (max-width : 376px) {
+  .footer {
+    max-width: 282px;
+    flex-direction: column;
+    margin: 64px 0 0 16px;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .footer {
+    max-width: 183px;
+
+  }
+}

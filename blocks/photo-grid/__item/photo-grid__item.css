@@ -4,31 +4,3 @@
   object-fit: cover;
   border: none;
 }
-.photo-grid__item:hover {
-  transition: .2s;
-  opacity: .5;
-}
-
-@media screen and (max-width : 1200px){
-  .photo-grid__item{
-      min-width:300px;
-  }
-}
-
-@media screen and (max-width : 900px){
-  .photo-grid__item{
-      min-width:352px;
-  }
-}
-
-@media screen and (max-width : 376px){
-  .photo-grid__item{
-      min-width:343px;
-  }
-}
-
-@media screen and (max-width : 321px){
-  .photo-grid__item{
-      min-width: 288px;
-  }
-}

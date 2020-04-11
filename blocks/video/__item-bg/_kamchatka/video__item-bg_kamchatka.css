@@ -1,5 +1,5 @@
 .video__item-bg_kamchatka {
-  background-image: url('../../../../images/Камчатка.jpg');
+  background-image: url('../../../../images/Камчатка.png');
   width: 100%;
   margin: 0;
 }
@@ -11,17 +11,17 @@
           from(rgba(0, 0, 0, 0.7)),
           to(rgba(0, 0, 0, 0.7))
         ),
-        url('../../../../images/Камчатка.jpg');
+        url('../../../../images/Камчатка.png');
   background-image: -o-linear-gradient(
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)
         ),
-        url('../../../../images/Камчатка.jpg');
+        url('../../../../images/Камчатка.png');
   background-image: linear-gradient(
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)
         ),
-        url('../../../../images/Камчатка.jpg')
+        url('../../../../images/Камчатка.png')
 }
 
 
@@ -39,17 +39,17 @@
           from(rgba(0, 0, 0, 0.5)),
           to(rgba(0, 0, 0, 0.5))
         ),
-        url('../../../../images/Камчатка.jpg');
+        url('../../../../images/Камчатка.png');
   background-image: -o-linear-gradient(
           rgba(0, 0, 0, 0.5),
           rgba(0, 0, 0, 0.5)
         ),
-        url('../../../../images/Камчатка.jpg');
+        url('../../../../images/Камчатка.png');
   background-image: linear-gradient(
           rgba(0, 0, 0, 0.5),
           rgba(0, 0, 0, 0.5)
         ),
-        url('../../../../images/Камчатка.jpg');
+        url('../../../../images/Камчатка.png');
 
         height: 100%;
   }

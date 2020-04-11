@@ -1,5 +1,5 @@
 .video__item-bg_observatory {
-  background-image: url('../../../../images/Обсерватория.jpg');
+  background-image: url('../../../../images/Обсерватория.png');
   width: 100%;
 }
 
@@ -10,17 +10,17 @@
           from(rgba(0, 0, 0, 0.7)),
           to(rgba(0, 0, 0, 0.7))
         ),
-        url('../../../../images/Обсерватория.jpg');
+        url('../../../../images/Обсерватория.png');
   background-image: -o-linear-gradient(
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)
         ),
-        url('../../../../images/Обсерватория.jpg');
+        url('../../../../images/Обсерватория.png');
   background-image: linear-gradient(
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)
         ),
-        url('../../../../images/Обсерватория.jpg')
+        url('../../../../images/Обсерватория.png')
 }
 
 @media screen and (max-width : 900px) {
@@ -37,17 +37,17 @@
           from(rgba(0, 0, 0, 0.5)),
           to(rgba(0, 0, 0, 0.5))
         ),
-        url('../../../../images/Обсерватория.jpg');
+        url('../../../../images/Обсерватория.png');
   background-image: -o-linear-gradient(
           rgba(0, 0, 0, 0.5),
           rgba(0, 0, 0, 0.5)
         ),
-        url('../../../../images/Обсерватория.jpg');
+        url('../../../../images/Обсерватория.png');
   background-image: linear-gradient(
           rgba(0, 0, 0, 0.5),
           rgba(0, 0, 0, 0.5)
         ),
-        url('../../../../images/Обсерватория.jpg');
+        url('../../../../images/Обсерватория.png');
 
         height: 100%;
   }

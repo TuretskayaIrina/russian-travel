@@ -9,13 +9,13 @@
 
 
 @media screen and (max-width : 900px) {
-  .video__icon_play {
+  .video__icon-play {
     margin: 24px 0 0 24px;
   }
 }
 
 @media screen and (max-width : 321px) {
-  .video__icon_play {
+  .video__icon-play {
     margin: 16px 0 0 16px;
   }
 }
