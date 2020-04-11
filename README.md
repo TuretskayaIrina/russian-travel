@@ -20,6 +20,6 @@ ___
 
 **Deploy**
 
-* [Ссылка готовый проект](https://turetskayairina.github.io/russian-travel/)
+* [Ссылка на готовый проект](https://turetskayairina.github.io/russian-travel/)
 
 
