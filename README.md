@@ -18,4 +18,8 @@ ___
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
 
+**Deploy**
+
+* [Ссылка готовый проект](https://turetskayairina.github.io/russian-travel/)
+
 
