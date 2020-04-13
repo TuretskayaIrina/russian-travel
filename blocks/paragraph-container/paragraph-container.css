@@ -7,13 +7,13 @@
   grid-area: paragraph-conteiner;
 }
 
-@media screen and (max-width : 376px) {
+@media screen and (max-width : 599px) {
   .paragraph-container{
     max-width: 343px;
     margin: 24px auto 0;
   }
 }
-@media screen and (max-width : 321px) {
+@media screen and (max-width : 370px) {
   .paragraph-container{
     max-width: 288px;
     margin: 16px auto 0;
