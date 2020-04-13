@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width : 600px) {
-  .intro__text_span {
+  .intro__text_span-accent {
     font-size: 12px;
     line-height: 19px;
   }

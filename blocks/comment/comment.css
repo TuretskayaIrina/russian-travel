@@ -1,8 +1,9 @@
-@import url('./__cell/table__cell.css');
-@import url('./__img/table__img.css');
-@import url('./__quote/table__quote.css');
-@import url('./__author/table__author.css');
-.table {
+@import url('./__container/comment__container.css');
+@import url('./__img/comment__img.css');
+@import url('./__quote/comment__quote.css');
+@import url('./__author/comment__author.css');
+
+.comment {
   max-width: 100%;
   margin: 72px auto 0;
   display: grid;
@@ -12,7 +13,7 @@
 }
 
 @media screen and (max-width : 900px) {
-  .table {
+  .comment {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 48px;
@@ -21,14 +22,14 @@
 }
 
 @media screen and (max-width : 600px) {
-  .table {
+  .comment {
     margin-top: 48px;
     width: 100%;
   }
 }
 
 @media screen and (max-width : 321px) {
-  .table {
+  .comment {
     margin-top: 40px;
   }
 }

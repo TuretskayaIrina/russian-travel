@@ -1,4 +1,4 @@
-.table__author {
+.comment__author {
   font-weight: 900;
   font-size: 14px;
   line-height: 24px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width : 900px) {
-  .table__author {
+  .comment__author {
     order: 2;
     margin-top: 16px;
   }

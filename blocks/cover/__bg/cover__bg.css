@@ -1,48 +1,19 @@
 .cover__bg {
   background-image: url('../../../images/Image.jpg');
   width: 100%;
-  height: 594px;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-.cover__bg:hover {
-  background-image: -webkit-gradient(
-          linear,
-          left top, left bottom,
-          from(rgba(42, 44, 47, 0.7)),
-          to(rgba(42, 44, 47, 0.7))
-        ),
-        url('../../../images/Image.jpg');
-  background-image: -o-linear-gradient(
-          rgba(42, 44, 47, 0.7),
-          rgba(42, 44, 47, 0.7)
-        ),
-        url('../../../images/Image.jpg');
-  background-image: linear-gradient(
-          rgba(42, 44, 47, 0.7),
-          rgba(42, 44, 47, 0.7)
-        ),
-        url('../../../images/Image.jpg')
-}
-@media screen and (max-width : 1200px) {
-  .cover__bg {
-    height: 562px;
-  }
-}
-
-@media screen and (max-width : 900px) {
-  .cover__bg {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width : 600px) {
-  .cover__bg {
-    height: 272px;
-  }
-}
-
-@media screen and (max-width : 321px) {
-  .cover__bg {
-    height: 216px;
-  }
+.cover__bg::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
 }

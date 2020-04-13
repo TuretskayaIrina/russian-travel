@@ -1,9 +1,12 @@
 @import url('__logo/header__logo.css');
 @import url('./__langs/hesder__langs.css');
 @import url('./__lang/header__lang.css');
+@import url('./__lang/_active/header__lang_active.css');
+
 
 .header {
-  max-width: 82.2%;
+  max-width: 1184px;
+  min-height: 52px;
   margin: auto;
   color: #FFFFFF;
   display: flex;
@@ -12,24 +15,18 @@
 
 @media screen and (max-width : 1200px) {
   .header {
-    width: 90.6%;
+    max-width: calc(100% - 48px - 48px);
   }
 }
 
 @media screen and (max-width : 900px) {
   .header {
-    width: 93.8%;
+    max-width: calc(100% - 24px - 24px);
   }
 }
 
 @media screen and (max-width : 600px) {
   .header {
-    width: 91.5%;
-  }
-}
-
-@media screen and (max-width : 321px) {
-  .header {
-    width: 90%;
+    max-width: calc(100% - 16px - 16px);
   }
 }

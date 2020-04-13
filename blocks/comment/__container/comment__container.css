@@ -1,11 +1,11 @@
-.table__cell {
+.comment__container {
   max-width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (max-width : 900px) {
-  .table__cell {
+  .comment__container {
     align-items: center;
   }
 }

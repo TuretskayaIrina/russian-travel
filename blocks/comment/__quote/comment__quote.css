@@ -1,4 +1,4 @@
-.table__quote {
+.comment__quote {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -8,7 +8,7 @@
 
 
 @media screen and (max-width : 900px) {
-  .table__quote {
+  .comment__quote {
     font-size: 16px;
     line-height: 23px;
     order: 3;

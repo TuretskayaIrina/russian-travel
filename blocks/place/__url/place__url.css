@@ -1,26 +1,11 @@
-@import url('./_name/place__url_name.css');
-@import url('./_link/place__url_link.css');
-
 .place__url {
-  max-width: 484px;
-  align-self: end;
-  grid-area: url;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 
-@media screen and (max-width : 1200px) {
-  .place__url {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width : 900px) {
-  .place__url {
-    max-width: 452px;
-  }
-}
-
-@media screen and (max-width : 600px) {
-  .place__url {
-    display: none;
-  }
+.place__url:hover {
+  transition: .2s;
+  opacity: .5;
 }

@@ -1,6 +1,6 @@
 @import url('../content-title/content-title.css');
 @import url('../content-subtitle/content-subtitle.css');
-@import url('../table/table.css');
+@import url('../comment/comment.css');
 
 .comments {
   max-width: 1184px;
