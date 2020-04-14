@@ -18,4 +18,7 @@
     font-size: 16px;
     line-height: 27px;
   }
+  .paragraph-container__element:last-of-type {
+    margin: 0;
+  }
 }
