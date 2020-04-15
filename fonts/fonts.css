@@ -1,36 +1,33 @@
 @font-face {
-  font-family: 'Inter', Arial, sans-serif;
+  src:
+    url('./Inter/Inter-Regular.woff2') format("woff2"),
+    url('./Inter/Inter-Regular.woff') format("woff");
+  font-family: 'Inter';
   font-weight: 400;
-  src:
-    url(./Inter/Inter-Regular.otf),
-    url(./Inter/Inter-Regular.ttf),
-    url(./Inter/Inter-Regular.woff),
-    url(./Inter/Inter-Regular.woff2);
+  font-style: normal;
+
 }
 @font-face {
-  font-family: 'Inter', Arial, sans-serif;
+  src:
+    url('./Inter/Inter-Medium.woff2') format("woff2"),
+    url('./Inter/Inter-Medium.woff') format("woff");
+  font-family: 'Inter';
   font-weight: 500;
-  src:
-    url(./Inter/Inter-Medium.otf),
-    url(./Inter/Inter-Medium.ttf),
-    url(./Inter/Inter-Medium.woff),
-    url(./Inter/Inter-Medium.woff2);
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Inter', Arial, sans-serif;
+  src:
+    url('./Inter/Inter-Bold.woff2') format("woff2"),
+    url('./Inter/Inter-Bold.woff') format("woff");
+  font-family: 'Inter';
   font-weight: 700;
-  src:
-    url(./Inter/Inter-Bold.otf),
-    url(./Inter/Inter-Bold.ttf),
-    url(./Inter/Inter-Bold.woff),
-    url(./Inter/Inter-Bold.woff2);
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 900;
   src:
-    url(./Inter/Inter-Black.otf),
-    url(./Inter/Inter-Black.ttf),
-    url(./Inter/Inter-Black.woff),
-    url(./Inter/Inter-Black.woff2);
+    url('./Inter/Inter-Black.woff2') format("woff2"),
+    url('./Inter/Inter-Black.woff') format("woff");
+  font-family: 'Inter';
+  font-weight: 900;
+  font-style: normal;
 }

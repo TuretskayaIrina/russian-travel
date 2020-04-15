@@ -10,21 +10,3 @@
 @import url('../blocks/comments/comments.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
-
-/*Границы для проверки разметки
-div,
-img,
-h1,
-h2,
-cite,
-blockquote,
-p,
-a,
-h3,
-h4,
-h5,
-section,
-nav {
-  border: 1px solid red;
-}*/
-
