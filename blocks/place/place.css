@@ -6,6 +6,7 @@
 @import url('../paragraph-container/paragraph-container.css');
 
 
+
 .place{
   max-width: 984px;
   margin-bottom: 72px;
@@ -13,12 +14,14 @@
   grid-template-areas:
       "title url"
       "image paragraph-conteiner";
+  grid-template-columns: 1fr 1fr;
   column-gap: 2.5rem;
   row-gap: 3.75rem;
 }
 .place:last-of-type {
   margin-bottom: 0;
 }
+
 
 @media screen and (max-width : 1200px) {
   .place {
@@ -39,6 +42,8 @@
       "title"
       "image"
       "paragraph-conteiner";
+      grid-template-columns: 1fr;
       gap: 0;
   }
 }
+

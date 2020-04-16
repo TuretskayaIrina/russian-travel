@@ -6,9 +6,10 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width : 900px) {
+@media screen and (min-width : 761px) {
   .footer__author {
     margin: 0;
+    align-self: center;
   }
 }
 
