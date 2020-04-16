@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 767px) {
   .video__title {
     line-height: 24px;
     padding-left: 24px;
